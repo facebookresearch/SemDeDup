@@ -1,0 +1,13 @@
+LAION_loader
+**/__pycache__
+simple_semdedup.py
+clustering/jobs
+clustering/ssp_utils.py
+clustering/ssp_pruning.py
+SemDeDup/
+clustering/configs/openclip/laion440m_ssp_pruning_openclip_configs.yaml
+clustering/configs/openclip/paralellized_kmeans_openclip_configs.yaml
+clustering/configs/openclip/paralellized_kmeans_dino_embs_configs.yaml
+clustering/clustering_and_sort.py
+clustering/kmeans_configs.yaml
+dev_semdedup_configs.yaml

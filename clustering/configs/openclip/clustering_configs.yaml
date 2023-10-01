@@ -1,0 +1,14 @@
+sim_metric: 'cosine' # choose form ['cosine', 'l2']
+keep_hard: True # True for hard examples
+Kmeans_with_cos_dist: True # True for using cosine similarity for kmeans clustering
+emb_memory_loc: "<your path>.npy"
+text_emb_memory_loc: None
+paths_memory_loc: "<your path>.npy"
+sorted_clusters_file_loc: "<your path>/sorted_clusters"
+save_folder: "<your path>"
+path_str_dtype: "S24"
+ncentroids: 50000
+dataset_size:  <dataset_size> 
+emb_size: 768
+niter: 100
+seed: 1234
